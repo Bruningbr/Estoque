@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('quantidade_estoque');
             $table->integer('faixa_etaria_minima');
             $table->timestamps();
+            
         });
     }
 
