@@ -66,6 +66,8 @@ class ProdutoController extends Controller
 
         return response()->json(['mensagem' => 'Tarefa deletada com sucesso']);
     }
+  
+    
 }
 
  

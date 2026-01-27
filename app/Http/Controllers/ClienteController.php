@@ -9,7 +9,6 @@ class ClienteController extends Controller
 {
     public function index(){
         $cliente = Cliete::all();
-
         return response()->json($cliente);
     }
 
