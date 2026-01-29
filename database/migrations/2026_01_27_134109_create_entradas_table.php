@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('entradas', function (Blueprint $table) {
             $table->id();
             $table->string('quantidade', 80);
-            $table->id('id_cliente');
-            $table->id('id_produto');
+            $table->foreign('id_cliente');
+            $table->foreign('id_produto');
             $table->timestamps();
         });
     }
